@@ -9,7 +9,11 @@ body {
     display: grid;
     row-gap: 3%;
   }
-@media screen and (min-width: 375px) {
+@media only screen and (max-width: 768px) {
+    .main-nav{
+        display: none;
+    }
+
     #ham {
      font-size: 35px;
      margin-left: 20px;
@@ -113,8 +117,61 @@ body {
     .date h2{
        margin-top: 1px;
     }
-   
 
+}
+@media only screen and (min-width: 768px) {
+    /* .main-nav-ul {
+        list-style: none;
+        display: flex;
+        float: right;
+        background-color: red;
+    }*/
+    .main-nav-ul {
+        list-style-type: none;
+        display: flex;
+        column-gap: 10px;  
+
+    }
+     #ham {
+        display: none;
+    } 
+    .main-section {
+        position: relative;
+        background-image: url(Img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;  
+        background-size: cover;
+        height: 70vh;
+        margin-left: -10px; 
+        margin-right: -20px;
+        margin-top: 10px;
     
 
+    }
+    .middle {
+        color: orangered;
+        width: 50%;
+    }
+    .top {
+        color: orangered;
+    }
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10%;
+       
+    }
+    .lower {
+        width: 50%;
+        background-color: rgb(255, 246, 246);
+        font-size: 20px;
+    }
+    .section-container {
+        padding: 2em 1em;
+    }
+    .title-box {
+        justify-content: center;
+    }
 }
