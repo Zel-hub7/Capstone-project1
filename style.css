@@ -13,6 +13,9 @@ body {
     .main-nav{
         display: none;
     }
+    .navigation {
+        display: none;
+    }
 
     #ham {
      font-size: 35px;
@@ -212,6 +215,52 @@ body {
         padding: 1px;
         color: rgb(255, 36, 36);
     }
+    .date {
+        transform: scale(1.4);
+        margin-top: 3%;
+        margin-left: 4%;
+    }
+    .section-container {
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 10px;
+    }
+    .program-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .program-icon h3 {
+        color: orangered;
+    }
+  
+    .program-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(201, 201, 201, 0.3);
+        height: 70vh;
+    }
+    .program-box p {
+        color: white;
+        margin-left: 5%;
+    }
+    .program-box img {
+        max-width: 50%;
+        max-height: 65%;
+        
+    }
+    .program-section {
+        position: relative;
+        background: url(Img/mainbg.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;  
+        background-size: cover;
+        margin-left: -10px;
+        margin-right: -10px;
+
+    }
+
 
 
 }
