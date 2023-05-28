@@ -182,6 +182,9 @@ body {
         margin-top: 2%;
         
     }
+    .section-title {
+        color: white;
+    }
     .section-container {
         padding: 2em 1em;
     }
@@ -260,6 +263,19 @@ body {
         margin-right: -10px;
 
     }
+    .contact {
+        margin-top: 2%;
+       margin-left: -16%;
+       font-size: 25px;
+       width: 60%;
+    }
+    .about {
+        height: 90vh;
+    }
+    #email {
+        padding-left: 15%;
+    }
+
 
 
 
