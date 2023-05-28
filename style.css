@@ -275,6 +275,26 @@ body {
     #email {
         padding-left: 15%;
     }
+    .about-second {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-par {
+        width: 50%;
+        margin-top: -2%;
+        font-size: 20px;
+    }
+    .about-title {
+        padding-top: 5%;
+        font-size: 30px;
+    }
+    #about-logo {
+        width: 50%;
+        border: solid black;
+        border-width: 1px;
+    }
 
 
 
