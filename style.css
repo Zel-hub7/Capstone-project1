@@ -120,17 +120,20 @@ body {
 
 }
 @media only screen and (min-width: 768px) {
-    /* .main-nav-ul {
-        list-style: none;
-        display: flex;
-        float: right;
-        background-color: red;
-    }*/
-    .main-nav-ul {
+     .main-nav {
+        background-color: black;
+        margin-bottom: 14px;
+        margin-top: -20px;
+        margin-left: -10px;
+        margin-right: -10px;
+     }
+     .main-nav-ul {
         list-style-type: none;
         display: flex;
-        column-gap: 10px;  
-
+        column-gap: 40px; 
+        color: white;
+        margin-left: 60%;
+        padding-top: 35px;
     }
      #ham {
         display: none;
@@ -174,4 +177,17 @@ body {
     .title-box {
         justify-content: center;
     }
+    .second-nav-ul {
+       list-style-type: none;
+       display: flex;
+       column-gap: 10px;
+      
+    }
+    .second-nav-ul li a {
+        text-decoration: none;
+    }
+    .navigation {
+        display: flex;
+    }
+
 }
