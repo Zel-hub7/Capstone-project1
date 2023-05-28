@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    overflow-x: hidden;
+}
+.d-flex {
+    display: flex;
+  }
+.d-grid {
+    display: grid;
+    row-gap: 3%;
+  }
 @media screen and (min-width: 375px) {
     #ham {
      font-size: 35px;
@@ -34,11 +45,60 @@
         width: 50%;
         background-color: rgb(255, 246, 246);
         font-size: 20px;
-      
+    }
+    .section-container {
+        padding: 2em 1em;
+    }
+    .title-box {
+        justify-content: center;
+    }
+    .section-title {
+        font-size: 1.5rem;
+        color: white;
+    }
+    .hero-section {
+        height: 56vh;
+    }
+
+    .card-box {
+        grid-template-columns: repeat(2, 50%);
+        gap: 0.5em;
+       
+    }
+    .card-box p {
+        font-size: 1.1rem;
+        color: white;
+    }
+
+    .card-box h3 {
+        font-size: 1.4rem;
+        color: rgb(255, 104, 50);
+        margin-left: 15%;
+    }
+    .program-box img {
+        padding-top: 10%;
+        max-width: 20%;
+        max-height: 50%;
+        
+    }
+
+    .card-box {
+      background-color: rgb(201, 201, 201, 0.3);
+      margin-left: 4%;
+      margin-right: 4%;
     }
     .program-section {
-        display: flex;
-        flex-direction: column;
+        position: relative;
+        background: url(Img/mainbg.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;  
+        background-size: cover;
+        margin-left: -10px;
+        margin-right: -10px;
     }
+   
+
+
+    
 
 }
