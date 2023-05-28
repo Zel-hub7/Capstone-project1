@@ -96,8 +96,20 @@ body {
         margin-left: -10px;
         margin-right: -10px;
     }
-   
 
+    .join {
+        display: flex;
+        justify-content: center;
+        margin-top: 20%;
+    }
+
+     .btn {
+        background-color: rgb(255, 80, 16);
+        padding: 16px;
+        text-decoration: none;
+        color: white;
+    }
+   
 
     
 
