@@ -1,3 +1,8 @@
-body {
-  background-color: aquamarine;
+@media screen and (min-width: 375px) {
+   
+    #ham {
+     font-size: 35px;
+     margin-left: 20px;
+    }
+
 }
