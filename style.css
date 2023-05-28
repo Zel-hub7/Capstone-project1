@@ -1,3 +1,36 @@
-body {
-  background-color: aquamarine;
+@media screen and (min-width: 375px) {
+   
+    #ham {
+    
+     font-size: 35px;
+     margin-left: 20px;
+    }
+    .main-section {
+        position: relative;
+        background-image: url(Img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: -10px;
+        margin-right: -20px;
+
+    }
+    .middle {
+        color: orangered;
+        width: 50%;
+    }
+    .top {
+        color: orangered;
+    }
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lower {
+        width: 50%;
+        background-color: rgb(218, 218, 218);
+        font-size: 20px;
+    }
+
 }
