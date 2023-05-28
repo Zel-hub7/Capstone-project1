@@ -12,6 +12,7 @@
         background-size: 100%;
         margin-left: -10px;
         margin-right: -20px;
+        height: 80vh;
 
     }
     .middle {
@@ -26,6 +27,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 10%;
     }
     .lower {
         width: 50%;
