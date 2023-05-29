@@ -229,6 +229,43 @@ body {
 }
 /* Desktop version */
 @media screen and (min-width: 769px) {
-  body {
-  }
+    .ham {
+      display: none;
+    }
+    .mainn-nav {
+      background-color: black;
+      height: 5vh;
+    }
+    .main-nav-ul {
+      display: flex;
+      flex-direction: row;
+      column-gap: 15px;
+      color: rgb(255, 255, 255);
+    
+    }
+    .navigation {
+      display: flex;
+      flex-direction: row;
+      column-gap: 40%;
+    }
+    .second-nav-ul {
+      display: flex;
+      flex-direction: row;
+      column-gap: 20px;
+      width: 100%;
+      margin-top: 4%;
+     
+    
+  
+    }
+    .second-nav-ul li a {
+      color: rgb(77, 77, 77);
+    }
+    .navigation-logo {
+      width: 15%;
+    }
+    #cc-btn {
+      border: solid orangered;
+      color: orangered;
+    }
 }
