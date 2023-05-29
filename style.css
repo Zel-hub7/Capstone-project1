@@ -187,18 +187,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    row-gap: 8%;
     align-items: center;
     color: white;
     height: 50vh;
   }
   .f-par {
     display: flex;
-    column-gap: 3%;
-
+    column-gap: 13%;
+    margin-left: -10%
   }
   .f-par2 {
     display: flex;
-    column-gap: 5%;
+    column-gap: 7%;
  
   }
   .partners {
