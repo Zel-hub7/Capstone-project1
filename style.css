@@ -183,6 +183,27 @@ body {
   .past-events img {
     width: 100%;
   }
+  .par-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50vh;
+  }
+  .f-par {
+    display: flex;
+    column-gap: 3%;
+
+  }
+  .f-par2 {
+    display: flex;
+    column-gap: 5%;
+ 
+  }
+  .partners {
+    background-color: rgb(53, 53, 53);
+  }
 }
 /* Desktop version */
 @media screen and (min-width: 769px) {
