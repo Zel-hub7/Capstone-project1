@@ -205,6 +205,24 @@ body {
   .partners {
     background-color: rgb(53, 53, 53);
   }
+  .footer {
+    display: flex;
+    background-color: white;
+  }
+  .footer-flex {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .footer-flex img {
+    width: 60%;
+
+  }
+  .footer-par {
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+ 
 }
 /* Desktop version */
 @media screen and (min-width: 769px) {
