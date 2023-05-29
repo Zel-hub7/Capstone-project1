@@ -222,6 +222,9 @@ body {
     margin-top: 5%;
     margin-right: 5%;
   }
+  .desc p {
+    margin-left: 5%;
+  }
  
 }
 /* Desktop version */
