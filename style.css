@@ -24,6 +24,9 @@ body {
     background-size: 100%;
     background-size: cover;
   }
+  #Program {
+    display: none;
+  }
 
   .main-nav {
     display: none;
@@ -345,6 +348,16 @@ body {
     padding-top: 10%;
     margin-bottom: -55px;
     color: white;
+  }
+  .join {
+    display: none;
+  }
+  #Program a {
+    color: white;
+    margin-left: 30%;;
+    font-size: 20px;
+    margin-top: 5%;
+    text-decoration: underline;
   }
 
 
