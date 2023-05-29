@@ -24,9 +24,9 @@ body {
     background-size: 100%;
     background-size: cover;
   }
-  #Program {
+  /* #Program {
     display: none;
-  }
+  } */
 
   .main-nav {
     display: none;
@@ -308,6 +308,7 @@ body {
     height: 80vh;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
   }
   .section-container {
     display: flex;
