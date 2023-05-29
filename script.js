@@ -108,10 +108,10 @@ const speakersData2 = [
   
   speaker2.innerHTML = output2;
   
-//   const MoreSpeakers = document.querySelector('.featured-speakers2');
-//   const MoreBtn = document.querySelector('.more');
+  const MoreSpeakers = document.querySelector('.featured-speakers2');
+  const MoreBtn = document.querySelector('.more');
   
-//   MoreBtn.addEventListener('click', () => {
-//     MoreBtn.classList.toggle('active');
-//     MoreSpeakers.classList.toggle('active');
-//   });
+  MoreBtn.addEventListener('click', () => {
+    MoreBtn.classList.toggle('active');
+    MoreSpeakers.classList.toggle('active');
+  });
