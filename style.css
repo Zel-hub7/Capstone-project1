@@ -309,6 +309,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+    overflow-x: hidden;
   }
   .section-container {
     display: flex;
@@ -359,6 +360,9 @@ body {
     font-size: 20px;
     margin-top: 5%;
     text-decoration: underline;
+  }
+  .speakers {
+    height: 100vh;
   }
 
 
