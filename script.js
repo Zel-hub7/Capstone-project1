@@ -60,7 +60,7 @@ const speakersData2 = [
       role: 'President of Young Pirates of Europe',
       description:
         'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
-      featuredImage: 'img/speaker_05',
+      featuredImage: 'img/speaker_05.png',
     },
   
     {
