@@ -424,6 +424,11 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
   }
+  .featured-speakers2.active {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
   .featured-speakers2 .grid {
     display: grid;
     grid-template-columns: 2fr 4fr;
@@ -450,6 +455,13 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: #272a31;
+  }
+  .speakers h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 400;
+    color: #272a31;
+    text-align: center;
   }
 
   .featured-speakers2 .p1 {
