@@ -314,9 +314,10 @@ body {
   .section-container {
     display: flex;
     width: 80%;
+    padding-top: 4%;
     margin-left: 10%;
     margin-right: 25%;
-    margin-top: 10%;
+    margin-top: 5%;
     
   }
   .program-box {
@@ -347,7 +348,7 @@ body {
   .title-box {
     font-family: "Lato", sans-serif;
     margin-left: 35%;
-    padding-top: 10%;
+    padding-top: 5%;
     margin-bottom: -55px;
     color: white;
   }
