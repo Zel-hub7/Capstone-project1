@@ -94,6 +94,9 @@ body {
     gap: 0.5em;
   
   }
+  .prog {
+    display: none;
+  }
   .card-box:hover {
     transform: scale(0.9);
     border: solid orangered;
@@ -150,6 +153,12 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
+  }
+  .speakers {
+    padding-top: 8%;
+  }
+  #speaker-title {
+    margin-left: 20%;
   }
   .join {
     display: flex;
