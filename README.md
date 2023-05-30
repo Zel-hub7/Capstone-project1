@@ -55,8 +55,8 @@ Click on this link to access the page live
 
 ## 🚀 Live Demo
 Click on this link to access the page
-<a href ="https://zel-hub7.github.io/">Live Demo Link</a>
-<a href ="https://www.loom.com/share/afff539499f546eeb04915d784cb4a5f">Live presentation about the project</a>
+<a href ="https://zel-hub7.github.io/Capstone-project1/index.html">Live Demo Link</a>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 ### setup
