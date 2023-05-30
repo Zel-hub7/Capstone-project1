@@ -59,6 +59,8 @@ body {
 
   #horizontal {
     margin-right: 50px;
+    border-color: orangered;
+    border-width: 1px;
   }
   .main-nav {
     display: none;
@@ -76,6 +78,7 @@ body {
   #hide {
     margin-left: 3%;
   }
+
   .main-section {
     height: 90vh;
   }
