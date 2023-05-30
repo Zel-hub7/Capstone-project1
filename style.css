@@ -263,7 +263,7 @@ body {
     background: url(Img/desktop-about-bg_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+     height: 100vh;
   }
   .hello {
     width: 50%;
@@ -305,10 +305,10 @@ body {
     background: url(Img/mainbg.webp);
     background-repeat: none;
     background-size: cover;
-    height: 80vh;
+    height: max-content;
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
   }
   .section-container {
@@ -505,12 +505,11 @@ body {
     align-items: center;
     margin-right: 50%;
     width: 100%;
-
   }
-  .line {
-
+  .prog {
+    margin-left: 18%;
+    margin-top: 5%;
   }
-
 
 
 
