@@ -92,6 +92,12 @@ body {
   .card-box {
     grid-template-columns: repeat(2, 50%);
     gap: 0.5em;
+  
+  }
+  .card-box:hover {
+    transform: scale(0.9);
+    border: solid orangered;
+    border-width: 1px;
   }
   .card-box p {
     font-family: "Lato", sans-serif;
