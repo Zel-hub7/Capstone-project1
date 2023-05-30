@@ -278,6 +278,7 @@ body {
   }
   .top {
     font-size: 15px;
+    padding-bottom: 8%;
   }
   .middle {
     font-size: 55px;
@@ -564,6 +565,40 @@ body {
   .footer-flex img {
    width: 70%;
 
+  }
+  .about-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-second img {
+    width: 30%;
+    border: solid silver;
+    border-width: 1px;
+  }
+  .about-child {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .past-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .past-events {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7%;
+    width: 50%;
+    margin-top: 3%;
+  }
+  .past-events img {
+    width: 70%;
   }
 
 
