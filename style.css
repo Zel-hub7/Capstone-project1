@@ -544,6 +544,17 @@ body {
   .head-p {
     padding-top: 15%;
   }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-flex {
+    width: 30%;
+  }
+  .footer-flex img {
+   width: 70%;
+
+  }
 
 
 
