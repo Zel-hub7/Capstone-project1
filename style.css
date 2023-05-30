@@ -493,6 +493,10 @@ body {
   .more {
     display: none;
   }
+  .program-box:hover {
+     transform: scale(0.9);
+     border: solid orangered;
+  }
 
 
 
