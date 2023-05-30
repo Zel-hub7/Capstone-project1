@@ -362,19 +362,26 @@ body {
   .navigation {
     display: flex;
     flex-direction: row;
-    column-gap: 30%;
+    column-gap: 20%;
+  }
+  #logos {
+    margin-left: 15%;
   }
   .second-nav-ul {
     display: flex;
     flex-direction: row;
-    column-gap: 15px;
+    column-gap: 10px;
+    margin-left: 2%;
     width: 100%;
-    padding-top: 2%;
-
+    padding-top: 1.5%;
   }
   .second-nav-ul li a {
     color: rgb(77, 77, 77);
   }
+  .second-nav-ul li a:hover {
+    color: orangered;
+  }
+  
   
   .navigation-logo {
     width: 20%;
