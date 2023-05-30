@@ -272,7 +272,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Lato",sans-serif;
-    margin-left: 10%;
+    margin-left: 30%;
     padding-top: 10%;
     color: orangered;
   }
@@ -280,13 +280,16 @@ body {
     font-size: 15px;
   }
   .middle {
-    font-size: 45px;
+    font-size: 55px;
+    width: 75%;
     font-family: "Lato",sans-serif;
     font-weight: bolder;
+    margin-top: -40px;
   }
   .lower {
     font-size: 16px;
-    width: 50%;
+    margin-top: 5%;
+    width: 75%;
     color: black;
     background-color: rgb(235, 235, 235);
     border: solid white;
@@ -300,6 +303,13 @@ body {
     font-weight: bolder;
     font-family: "Lato", sans-serif;
     font-size: 25px;
+  }
+  .contact {
+    margin-left: 30%;
+    margin-top: 3%;
+    font-weight: bolder;
+    font-size: 20px;
+
   }
   .section {
     background: url(Img/mainbg.webp);
@@ -527,7 +537,6 @@ body {
   .par-flex {
     display: flex;
     column-gap: 10%;
-   
     padding-top: 15px;
     margin-left: 18%;
   
@@ -547,6 +556,7 @@ body {
   .footer {
     display: flex;
     justify-content: space-between;
+    font-family: "Lato", sans-serif;
   }
   .footer-flex {
     width: 30%;
