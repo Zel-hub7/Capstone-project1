@@ -409,31 +409,31 @@ body {
      height: 100vh;
   }
   .hello {
-    width: 50%;
+    width: 80%;
   }
   .main-text {
     display: flex;
     flex-direction: column;
     font-family: "Lato",sans-serif;
-    margin-left: 30%;
-    padding-top: 10%;
+    margin-left: 14%;
+    padding-top: 5%;
     color: orangered;
   }
   .top {
-    font-size: 15px;
+    font-size: 30px;
     padding-bottom: 8%;
   }
   .middle {
-    font-size: 55px;
-    width: 75%;
+    font-size: 70px;
+    width: 100%;
     font-family: "Lato",sans-serif;
     font-weight: bolder;
-    margin-top: -40px;
+    margin-top: -70px;
   }
   .lower {
     font-size: 16px;
     margin-top: 5%;
-    width: 75%;
+    width: 100%;
     color: black;
     background-color: rgb(235, 235, 235);
     border: solid white;
