@@ -114,6 +114,16 @@ body {
     margin-left: 5%;
   
   }
+  .lines {
+    border: solid orangered;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1.5px;
+  }
+  #head-p {
+    display: none;
+  }
   .grid .p1 {
     color: orangered;
     font-family: "Lato", sans-serif;
@@ -155,6 +165,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
+    
   }
   .speakers {
     padding-top: 8%;
@@ -167,10 +178,12 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20%;
+    
+    padding-bottom:10%;
   }
 
   .btn {
-    background-color: rgb(255, 80, 16);
+    background-color: rgb(223, 34, 1);
     padding: 16px;
     text-decoration: none;
     color: white;
@@ -225,7 +238,8 @@ body {
     justify-content: center;
     row-gap: 8%;
     align-items: center;
-    color: white;
+    color: rgb(117, 117, 117);
+    font-weight: bolder;
     height: 50vh;
   }
   .f-par {
