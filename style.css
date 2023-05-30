@@ -18,8 +18,8 @@ body {
 
 /* mobile version */
 @media screen and (max-width: 768px) {
-  body {
-    background-image: url(Img/background.jpg);
+  .mobile-bg {
+    background: url(img/mobile-home-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
@@ -43,13 +43,15 @@ body {
   }
   .middle {
     font-family: "Lato", sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bolder;
     color: orangered;
   }
   .top {
+    font-size: 30px;
     font-family: "Lato", sans-serif;
     color: orangered;
+    margin-top: 5%;
   }
   .main-text {
     font-family: "Lato", sans-serif;
