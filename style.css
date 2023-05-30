@@ -369,7 +369,8 @@ body {
     flex-direction: row;
     column-gap: 15px;
     width: 100%;
-    padding-top: 4%;
+    padding-top: 2%;
+
   }
   .second-nav-ul li a {
     color: rgb(77, 77, 77);
@@ -377,7 +378,14 @@ body {
   
   .navigation-logo {
     width: 20%;
-    padding-left: 60px;
+    margin-left: 10%;
+    
+  }
+  .navigation-logos {
+    max-width: max-content;
+    height: auto;
+    background-color: red;
+   
   }
   #hide {
     display: none;
