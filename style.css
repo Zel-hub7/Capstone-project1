@@ -450,9 +450,10 @@ body {
   }
   .contact {
     margin-left: 30%;
-    margin-top: 3%;
+    margin-top: 7%;
     font-weight: bolder;
     font-size: 20px;
+
 
   }
   .section {
@@ -519,6 +520,7 @@ body {
   .speakers {
     height: 100vh;
   }
+  
   .speakers {
     background-color: #fff;
     display: flex;
@@ -686,6 +688,9 @@ body {
   
 
   }
+  .main-abt {
+    margin-left: 30%;
+  }
   .main-abt .middle {
     margin-top: 3%;
     width: 70%;
@@ -719,11 +724,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 8%;
   }
   .about-second img {
-    width: 30%;
-    border: solid silver;
+    width: 50%;
+
     border-width: 1px;
+  }
+  .about-par {
+    margin-top: 4%;
   }
   .about-child {
     display: flex;
