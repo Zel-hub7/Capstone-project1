@@ -11,6 +11,12 @@ body {
 .d-flex {
   display: flex;
 }
+.fas {
+  color: black;
+}
+.removed {
+  display: none;
+}
 .d-grid {
   display: grid;
   row-gap: 3%;
@@ -28,7 +34,36 @@ body {
     display: none;
   } */
 
+  .mobiles-menu {
+    list-style-type: none;
+    overflow: hidden;
+    background: url(img/mobile-home-bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 35px;
+    background-color: white
+  }
+
+  .mobiles-menu li {
+    padding: 20px;
+  }
+
+  .mobiles-menu li a {
+    font-size: 32px;
+    font-family: "Lato", sans-serif;
+    line-height: 44px;
+    color: #000000;
+  }
+
+  #horizontal {
+    margin-right: 50px;
+  }
   .main-nav {
+    display: none;
+  }
+  #head-h3 {
     display: none;
   }
   .navigation {
@@ -36,6 +71,9 @@ body {
   }
   #ham {
     font-size: 35px;
+    margin-left: 3%;
+  }
+  #hide {
     margin-left: 3%;
   }
   .main-section {
@@ -302,6 +340,12 @@ body {
   .ham {
     display: none;
   }
+  .mob-nav {
+    display: none;
+  }
+  .hidden {
+    display: none;
+  }
   .mainn-nav {
     background-color: black;
     height: 5vh;
@@ -327,9 +371,13 @@ body {
   .second-nav-ul li a {
     color: rgb(77, 77, 77);
   }
+  
   .navigation-logo {
     width: 20%;
     padding-left: 60px;
+  }
+  #hide {
+    display: none;
   }
   #cc-btn {
     border: solid orangered;

@@ -1,3 +1,35 @@
+const ham = document.getElementById('ham');
+const mobile = document.querySelector('.mobiles-menu');
+const hide = document.querySelector('#hide');
+const links = document.querySelectorAll('li');
+
+mobile.classList.add('removed');
+hide.style.display = 'none';
+
+ham.addEventListener('click', () => {
+  mobile.style.display = 'block';
+  hide.style.display = 'block';
+  ham.style.display = 'none';
+  ham.classList.add('remove');
+ 
+});
+
+hide.addEventListener('click', () => {
+  mobile.style.display = 'none';
+  hide.style.display = 'none';
+  ham.style.display = 'block';
+});
+
+links.forEach((link) => {
+  link.addEventListener('click', () => {
+    mobile.style.display = 'none';
+    hide.style.display = 'none';
+    ham.style.display = 'block';
+  });
+});
+
+
+
 const speakersData = [
     {
       id: '01',
@@ -115,3 +147,4 @@ const speakersData2 = [
     MoreBtn.classList.toggle('active');
     MoreSpeakers.classList.toggle('active');
   });
+ 
