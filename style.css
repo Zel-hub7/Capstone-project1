@@ -366,6 +366,7 @@ body {
   }
   #logos {
     margin-left: 15%;
+    padding-top: 8px;
   }
   .second-nav-ul {
     display: flex;
