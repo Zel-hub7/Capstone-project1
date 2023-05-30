@@ -510,6 +510,40 @@ body {
     margin-left: 18%;
     margin-top: 5%;
   }
+  .f-par {
+    display: flex;
+    
+    column-gap: 10%;
+  }
+  .f-par2 {
+    display: flex;
+
+    column-gap: 10%;
+  }
+  .partners {
+    height: 100vh;
+  
+  }
+  .par-flex {
+    display: flex;
+    column-gap: 10%;
+   
+    padding-top: 15px;
+    margin-left: 18%;
+  
+
+  }
+  #part {
+    display: none;
+  }
+  .partners {
+    background-color: #313236;
+    width: 100%;
+    color: #858585;
+  }
+  .head-p {
+    padding-top: 15%;
+  }
 
 
 
