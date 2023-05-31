@@ -287,8 +287,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin-top: 15%;
-    padding-top: 10%;
+    margin-top: 5%;
+    padding-top: 5%;
   }
 
   .about-child {
@@ -308,7 +308,11 @@ body {
   #the {
     margin-left: 20%;
   }
-
+  .abt-gm {
+    margin-left: 5%;
+    padding-top: 5%;
+    font-weight: bolder;
+  }
   .past {
     background-color: white;
   }
@@ -941,4 +945,13 @@ body {
    .f-des p {
     color: white;
    }
+   .abt-gm {
+    margin-left: 30%;
+    font-weight: bolder;
+    padding-top: 4%;
+   }
+   #are {
+    display: none;
+   }
+   
 }
