@@ -163,8 +163,8 @@ body {
     gap: 0.5em;
     background-color: #272a31;
     height: 90%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 
   .prog {
@@ -224,11 +224,16 @@ body {
     padding-top: 30px;
     padding-left: 5%;
   }
+  
 
   .program-box img {
     padding-top: 10%;
     max-width: 70%;
     max-height: 70%;
+  }
+  .program-box p{
+    padding-left: 5%;
+    margin-right:10%;
   }
 
   .program-section {
