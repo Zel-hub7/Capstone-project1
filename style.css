@@ -68,7 +68,7 @@ body {
 
   #horizontal {
     margin-right: 50px;
-    border-color: orangered;
+    border-color: #EC5242;
     border-width: 1px;
   }
 
@@ -101,13 +101,13 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 45px;
     font-weight: bolder;
-    color: orangered;
+    color: #EC5242;
   }
 
   .top {
     font-size: 30px;
     font-family: "Lato", sans-serif;
-    color: orangered;
+    color: #EC5242;
     margin-top: 5%;
   }
 
@@ -170,7 +170,7 @@ body {
 
   .card-box:hover {
     transform: scale(0.9);
-    border: solid orangered;
+    border: solid #EC5242;
     border-width: 1px;
   }
 
@@ -185,7 +185,7 @@ body {
   }
 
   .lines {
-    border: solid orangered;
+    border: solid #EC5242;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -197,7 +197,7 @@ body {
   }
 
   .grid .p1 {
-    color: orangered;
+    color: #EC5242;
     font-family: "Lato", sans-serif;
     font-size: 14px;
     margin-left: 5%;
@@ -217,7 +217,7 @@ body {
 
   .card-box h3 {
     font-size: 120%;
-    color: rgb(255, 104, 50);
+    color: #EC5242;
     padding-top: 30px;
     padding-left: 5%;
   }
@@ -253,7 +253,7 @@ body {
   }
 
   .btn {
-    background-color: rgb(223, 34, 1);
+    background-color: #EC5242;
     padding: 16px;
     text-decoration: none;
     color: white;
@@ -440,7 +440,7 @@ body {
   }
 
   .second-nav-ul li a:hover {
-    color: orangered;
+    color: #EC5242;
   }
 
   .navigation-logo {
@@ -459,8 +459,8 @@ body {
   }
 
   #cc-btn {
-    border: solid orangered;
-    color: orangered;
+    border: solid #EC5242;
+    color: #EC5242;
   }
 
   .main-section {
@@ -480,7 +480,7 @@ body {
     font-family: "Lato", sans-serif;
     margin-left: 14%;
     padding-top: 5%;
-    color: orangered;
+    color: #EC5242;
   }
 
   .top {
@@ -561,7 +561,7 @@ body {
 
   .program-icon h3 {
     font-size: 20px;
-    color: orangered;
+    color: #EC5242;
   }
 
   .program-icon img {
@@ -634,7 +634,7 @@ body {
   .grid h2 {
     font-size: 10px;
     font-weight: 700;
-    color: red;
+    color: #EC5242;
   }
 
   .featured-speakers ul {
@@ -661,7 +661,7 @@ body {
   }
 
   hr.line2 {
-    border: 1px solid orangered;
+    border: 1px solid #EC5242;
     width: 5%;
     margin: auto;
     margin-top: 20px;
@@ -681,7 +681,7 @@ body {
   .featured-speakers2 .p1 {
     font-size: 10px;
     font-weight: 700;
-    color: orangered;
+    color: #EC5242;
     text-align: left;
     padding-top: 0;
   }
@@ -703,7 +703,7 @@ body {
   .featured-speakers .p1 {
     font-size: 10px;
     font-weight: 600;
-    color: orangered;
+    color: #EC5242;
     text-align: left;
     padding-top: 10px;
   }
@@ -722,7 +722,7 @@ body {
 
   .program-box:hover {
     transform: scale(0.9);
-    border: solid orangered;
+    border: solid #EC5242;
   }
 
   .Lines {
