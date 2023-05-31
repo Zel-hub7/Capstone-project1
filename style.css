@@ -8,6 +8,7 @@
 body {
   overflow-x: hidden;
 }
+
 .d-flex {
   display: flex;
 }
@@ -33,6 +34,9 @@ body {
   /* #Program {
     display: none;
   } */
+  .featured-speakers2{
+    display: none;
+  }
 
   .mobiles-menu {
     list-style-type: none;
