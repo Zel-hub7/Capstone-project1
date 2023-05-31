@@ -17,8 +17,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo](#-live-demo)
-  - [🚀 Live Demo](#-live-demo-1)
-  - [💻 Getting Started ](#-getting-started-)
+  - [� Getting Started ](#-getting-started-)
     - [setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
@@ -49,9 +48,6 @@ After going through the study material (covering; semantics of HTML5, linters, C
 [There is a 3-stripped location panel at the right corner]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## 🚀 Live Demo
-Click on this link to access the page live
-<a href ="https://zel-hub7.github.io/">Live Demo Link</a>
 
 ## 🚀 Live Demo
 Click on this link to access the page

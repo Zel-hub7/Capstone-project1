@@ -56,7 +56,7 @@ speakersData.forEach((speaker) => {
         <img src="${speaker.featuredImage}" alt="first speaker">
         <ul>
             <li>
-                <h2>${speaker.name}</h2>
+                <h2 id = "sp1">${speaker.name}</h2>
             </li>
             <li>
                 <p class="p1">${speaker.role}</p>
@@ -77,12 +77,12 @@ const speakersData2 = [
   {
     id: '03',
     name: 'Kilnam Chon',
-    role: '',
+    role: 'Student service team leader',
     description:
         'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame ',
-    featuredImage: 'Img/speaker_04.png',
+    featuredImage: 'Img/speaker_01 1 (1).svg',
   },
-
+ 
   {
     id: '04',
     name: 'Julia Leda',
@@ -116,11 +116,11 @@ const speaker2 = document.querySelector('.featured-speakers2');
 let output2 = ' ';
 speakersData2.forEach((speaker2) => {
   output2 += `
-        <div class="grid">
+        <div class="grid doit">
           <img src="${speaker2.featuredImage}" alt="first speaker">
           <ul>
               <li>
-                  <h2>${speaker2.name}</h2>
+                  <h2 id = "spName">${speaker2.name}</h2>
               </li>
               <li>
                   <p class="p1">${speaker2.role}</p>

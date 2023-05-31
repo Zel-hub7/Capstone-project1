@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -29,11 +30,18 @@ body {
   row-gap: 3%;
 }
 
+.middle {
+  background-image: url("Img/orange-color-low-poly-background-triangular-vector-21681635.jpg");
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: #ec5242;
+}
 
 /* mobile version */
 @media screen and (max-width: 768px) {
   .mobile-bg {
-    background: url(img/mobile-home-bg.png);
+    background: url('img/mobile-home-bg.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
@@ -42,6 +50,7 @@ body {
   .featured-speakers2 {
     display: none;
   }
+
   #dd {
     display: none;
   }
@@ -71,7 +80,7 @@ body {
 
   #horizontal {
     margin-right: 50px;
-    border-color: #EC5242;
+    border-color: #ec5242;
     border-width: 1px;
   }
 
@@ -104,13 +113,13 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 45px;
     font-weight: bolder;
-    color: #EC5242;
+    color: #ec5242;
   }
 
   .top {
     font-size: 30px;
     font-family: "Lato", sans-serif;
-    color: #EC5242;
+    color: #ec5242;
     margin-top: 5%;
   }
 
@@ -173,7 +182,7 @@ body {
 
   .card-box:hover {
     transform: scale(0.9);
-    border: solid #EC5242;
+    border: solid #ec5242;
     border-width: 1px;
   }
 
@@ -188,7 +197,7 @@ body {
   }
 
   .lines {
-    border: solid #EC5242;
+    border: solid #ec5242;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -200,7 +209,7 @@ body {
   }
 
   .grid .p1 {
-    color: #EC5242;
+    color: #ec5242;
     font-family: "Lato", sans-serif;
     font-size: 14px;
     margin-left: 5%;
@@ -214,8 +223,8 @@ body {
 
   .grid h2 {
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    color: #555555;
+    font-family: "Lato", sans-serif;
+    color: #555;
     margin-left: 5%;
     padding-top: 10%;
     font-weight: bolder;
@@ -223,20 +232,20 @@ body {
 
   .card-box h3 {
     font-size: 120%;
-    color: #EC5242;
+    color: #ec5242;
     padding-top: 30px;
     padding-left: 5%;
   }
-  
 
   .program-box img {
     padding-top: 10%;
     max-width: 70%;
     max-height: 70%;
   }
-  .program-box p{
+
+  .program-box p {
     padding-left: 5%;
-    margin-right:10%;
+    margin-right: 10%;
   }
 
   .program-section {
@@ -264,7 +273,7 @@ body {
   }
 
   .btn {
-    background-color: #EC5242;
+    background-color: #ec5242;
     padding: 16px;
     text-decoration: none;
     color: white;
@@ -308,11 +317,13 @@ body {
   #the {
     margin-left: 20%;
   }
+
   .abt-gm {
     margin-left: 5%;
     padding-top: 5%;
     font-weight: bolder;
   }
+
   .past {
     background-color: white;
   }
@@ -327,25 +338,36 @@ body {
   .past-events img {
     width: 100%;
   }
+
   .image-container {
     position: relative;
     display: inline-block;
   }
+
   .image-container img {
     width: 100%; /* Set the desired width for the image */
     height: auto; /* Automatically adjust the height based on the aspect ratio */
   }
+
   .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(236, 82, 66, 0.6) ; /* Set the desired color and transparency */
+    background-color:
+      rgba(
+        236,
+        82,
+        66,
+        0.6
+      ); /* Set the desired color and transparency */
+
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .overlay-text {
     color: white;
     font-size: 24px;
@@ -353,8 +375,6 @@ body {
     text-align: center;
     padding: 10px;
   }
-  
-
 
   .par-flex {
     display: flex;
@@ -483,7 +503,7 @@ body {
   }
 
   .second-nav-ul li a:hover {
-    color: #EC5242;
+    color: #ec5242;
   }
 
   .navigation-logo {
@@ -502,8 +522,8 @@ body {
   }
 
   #cc-btn {
-    border: solid #EC5242;
-    color: #EC5242;
+    border: solid #ec5242;
+    color: #ec5242;
   }
 
   .main-section {
@@ -523,7 +543,7 @@ body {
     font-family: "Lato", sans-serif;
     margin-left: 14%;
     padding-top: 5%;
-    color: #EC5242;
+    color: #ec5242;
   }
 
   .top {
@@ -604,7 +624,7 @@ body {
 
   .program-icon h3 {
     font-size: 20px;
-    color: #EC5242;
+    color: #ec5242;
   }
 
   .program-icon img {
@@ -677,7 +697,12 @@ body {
   .grid h2 {
     font-size: 10px;
     font-weight: 700;
-    color: #EC5242;
+    color: #ec5242;
+    margin-left: -25%;
+  }
+
+  #sp1 {
+    font-size: 20px;
   }
 
   .featured-speakers ul {
@@ -704,7 +729,7 @@ body {
   }
 
   hr.line2 {
-    border: 1px solid #EC5242;
+    border: 1px solid #ec5242;
     width: 5%;
     margin: auto;
     margin-top: 20px;
@@ -724,7 +749,7 @@ body {
   .featured-speakers2 .p1 {
     font-size: 10px;
     font-weight: 700;
-    color: #EC5242;
+    color: #ec5242;
     text-align: left;
     padding-top: 0;
   }
@@ -746,7 +771,7 @@ body {
   .featured-speakers .p1 {
     font-size: 10px;
     font-weight: 600;
-    color: #EC5242;
+    color: #ec5242;
     text-align: left;
     padding-top: 10px;
   }
@@ -765,7 +790,7 @@ body {
 
   .program-box:hover {
     transform: scale(0.9);
-    border: solid #EC5242;
+    border: solid #ec5242;
   }
 
   .Lines {
@@ -860,6 +885,7 @@ body {
     flex-direction: column;
     margin-top: 0%;
   }
+
   #mb {
     display: none;
   }
@@ -874,19 +900,17 @@ body {
 
   .past-events {
     display: flex;
-    align-items: center;
     justify-content: center;
     align-items: center;
     margin-left: 5%;
     column-gap: 10px;
     margin-top: 5%;
-   
   }
- 
 
   .past-events img {
     width: 80%;
   }
+
   #smaller {
     width: 77%;
   }
@@ -899,28 +923,36 @@ body {
   #image {
     width: 80%;
   }
+
   .image-container {
     width: 40%;
-  }
-  .image-container {
     position: relative;
     display: inline-block;
   }
+
   .image-container img {
-    width: 100%; /* Set the desired width for the image */
-    height: auto; /* Automatically adjust the height based on the aspect ratio */
+    width: 100%;
+    height: auto;
   }
+
   .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(236, 82, 66, 0.6) ; /* Set the desired color and transparency */
+    background-color:
+      rgba(
+        236,
+        82,
+        66,
+        0.6
+      );
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .overlay-text {
     color: white;
     font-size: 24px;
@@ -938,23 +970,27 @@ body {
     margin-right: 10%;
     margin-top: 3%;
   }
+
   .abt-partners {
     display: none;
-   }
-   .f-des {
-     background-color: #313236;
-     margin-top: 5%;
-   }
-   .f-des p {
+  }
+
+  .f-des {
+    background-color: #313236;
+    margin-top: 5%;
+  }
+
+  .f-des p {
     color: white;
-   }
-   .abt-gm {
+  }
+
+  .abt-gm {
     margin-left: 30%;
     font-weight: bolder;
     padding-top: 4%;
-   }
-   #are {
+  }
+
+  #are {
     display: none;
-   }
-   
+  }
 }
