@@ -4,7 +4,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>MY Portfolio</b></h3>
+  <h3><b>Capstone Project</b></h3>
 
 </div>
 
@@ -35,7 +35,7 @@
 
 # 📖 [Capstone-Porject-1] <a name="about-project"></a>
 
-After going through the study material (covering; semantics of HTML5, linters, CSS3, figma, grid, gitflow and flexbox) I applied my knowledge to build a PORTFOLIO repository.
+After going through the study material (covering; semantics of HTML5, linters, CSS3, figma, grid, gitflow and flexbox) I applied my knowledge to build confress website repository.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -95,7 +95,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+
 
 👤 **Author1**
 
@@ -107,13 +107,13 @@ You can deploy this project using:
 
 
 ## 🔭 Future Features <a name="future-features">
-1. [Setting up mobile and desktop versions]
-2. [Application deploy]
-3. [Preserve data in the browser(pair programming)]
+
+
+
 
 </a>
 
-> Describe 1 - 3 features you will add to the project.
+
 
 - [ ] **[Mobile version of my portfolio]**
 - [ ] **[Desktop version of my portfolio]**
