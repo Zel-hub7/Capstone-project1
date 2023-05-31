@@ -39,10 +39,10 @@ body {
     background-size: cover;
   }
 
-  /* #Program {
-    display: none;
-  } */
   .featured-speakers2 {
+    display: none;
+  }
+  #dd {
     display: none;
   }
 
@@ -859,6 +859,9 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 0%;
+  }
+  #mb {
+    display: none;
   }
 
   .past-flex {
