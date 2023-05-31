@@ -32,13 +32,12 @@ body {
 }
 
 .middle {
-  font-family: 'COCOGOOSE',sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   font-weight: bolder;
   background-image: url("Img/photo_2023-05-31_08-57-13.jpg");
   background-clip: inherit;
   -webkit-background-clip: text;
   color: transparent;
- 
 }
 
 .p1 {
@@ -117,10 +116,8 @@ body {
   }
 
   .middle {
-    
     font-size: 45px;
     font-weight: bolder;
-    
   }
 
   .top {
@@ -561,7 +558,6 @@ body {
   .middle {
     font-size: 60px;
     width: 100%;
-
     font-weight: bolder;
     margin-top: -30px;
   }
