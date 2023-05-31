@@ -35,7 +35,7 @@
 
 # 📖 [Capstone-Porject-1] <a name="about-project"></a>
 
-After going through the study material (covering; semantics of HTML5, linters, CSS3, figma, grid, gitflow and flexbox) I applied my knowledge to build a PORTFOLIO repository.
+After going through the study material (covering; semantics of HTML5, linters, CSS3, figma, grid, gitflow and flexbox) I applied my knowledge to build confress website repository.
 
 ## 🛠 Built With <a name="built-with"></a>
 
