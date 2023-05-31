@@ -82,7 +82,7 @@ const speakersData2 = [
         'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame ',
     featuredImage: 'Img/speaker_01 1 (1).svg',
   },
- 
+
   {
     id: '04',
     name: 'Julia Leda',
