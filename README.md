@@ -95,7 +95,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+
 
 👤 **Author1**
 
@@ -107,13 +107,13 @@ You can deploy this project using:
 
 
 ## 🔭 Future Features <a name="future-features">
-1. [Setting up mobile and desktop versions]
-2. [Application deploy]
-3. [Preserve data in the browser(pair programming)]
+
+
+
 
 </a>
 
-> Describe 1 - 3 features you will add to the project.
+
 
 - [ ] **[Mobile version of my portfolio]**
 - [ ] **[Desktop version of my portfolio]**
