@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +9,7 @@
 
 body {
   overflow-x: hidden;
+  font-family: "Lato", sans-serif;
 }
 
 .d-flex {
@@ -26,6 +28,7 @@ body {
   display: grid;
   row-gap: 3%;
 }
+
 
 /* mobile version */
 @media screen and (max-width: 768px) {
@@ -857,4 +860,14 @@ body {
     margin-right: 10%;
     margin-top: 3%;
   }
+  .abt-partners {
+    display: none;
+   }
+   .f-des {
+     background-color: #313236;
+     margin-top: 5%;
+   }
+   .f-des p {
+    color: white;
+   }
 }
