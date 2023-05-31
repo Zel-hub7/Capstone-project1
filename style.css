@@ -37,6 +37,9 @@ body {
   color: transparent;
   background-color: #ec5242;
 }
+.p1 {
+ font-style: italic; 
+}
 
 /* mobile version */
 @media screen and (max-width: 768px) {
