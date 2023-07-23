@@ -4,7 +4,7 @@
   <img src="Img/desktop.png" alt="logo" width="100%"  height="auto" />
   <br/>
 
-  <h3><b>Capstone Project</b></h3>
+  <h1><b>HTML & CSS Capstone Project</b></h1>
 
 </div>
 
