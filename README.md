@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="Img/desktop.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Capstone Project</b></h3>
